@@ -1,12 +1,15 @@
 import React, { Component, Fragment } from "react";
 
 export class Navbar extends Component {
+
+
   render() {
+  var coupleName = "Ankita Krishanu";
     return (
       <Fragment>
         <nav className="navbar navbar-expand-sm bg-danger navbar-dark fixed-top font-italic">
           <a className="navbar-brand" href="#">
-            <h4>Ankita Krishanu Forever</h4>
+            <h4>{coupleName} Forever</h4>
           </a>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -17,6 +20,11 @@ export class Navbar extends Component {
             <li className="nav-item">
               <a className="nav-link" href="#">
                 Our Story
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Wedding Events
               </a>
             </li>
             <li className="nav-item">
@@ -34,4 +42,6 @@ export class Navbar extends Component {
       </Fragment>
     );
   }
+
+ 
 }

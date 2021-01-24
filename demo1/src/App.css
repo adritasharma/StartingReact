@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.App, body {
+  font-family: monospace !important;
+  font-style: italic;
+
 }
 
 .App-logo {
@@ -27,6 +29,20 @@
 .App-link {
   color: #61dafb;
 }
+
+.container-fluid{
+  margin-top: 4rem;
+}
+
+.bg-danger {
+  background-color: #dc838b!important;
+}
+
+.seperator{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 
 @keyframes App-logo-spin {
   from {
