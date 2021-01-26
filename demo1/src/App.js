@@ -19,6 +19,7 @@ function App() {
         <Timer />
         <Seperator/>
         <Bridegroom/>
+        <Seperator/>
         <Weddingevents/>
       </div>
       {/* <header className="App-header">

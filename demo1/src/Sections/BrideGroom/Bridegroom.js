@@ -24,7 +24,7 @@ export class Bridegroom extends Component {
 
         {persons.map((item, i) => {
           return (
-            <div className="row">
+            <div className="row" key={i}>
               {i % 2 == 0 ? (
                 <Fragment>
                   <div className="col-8 text-right">

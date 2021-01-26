@@ -43,6 +43,15 @@
   margin-bottom: 3rem;
 }
 
+.slick-arrow , .slick-prev:focus, .slick-prev:hover,.slick-next:focus, .slick-next:hover{
+  background: red;
+}
+.slick-next {
+  right: 0px;
+}
+.slick-prev {
+  left: 0;
+}
 
 @keyframes App-logo-spin {
   from {
