@@ -6,6 +6,7 @@ import { Banner } from "./Sections/Banner";
 import { Timer } from "./Sections/Timer";
 import { Bridegroom } from "./Sections/BrideGroom/Bridegroom";
 import { Weddingevents } from "./Sections/Weddingevents";
+import { Whenandwhere } from "./Sections/Whenandwhere";
 import { Seperator } from "./Seperator";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Bridegroom/>
         <Seperator/>
         <Weddingevents/>
+        <Seperator/>
+        <Whenandwhere/>
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
