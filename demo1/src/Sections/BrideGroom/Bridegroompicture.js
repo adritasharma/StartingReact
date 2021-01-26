@@ -8,9 +8,10 @@ export class Bridegroompicture extends Component {
         <div className="row">
           <div className="col-11 mx-auto">
             <img
-              src="https://picsum.photos/300"
+              src={process.env.PUBLIC_URL + "images/" + this.props.imagename }
               className="bridegroom-image"
             ></img>
+            
           </div>
         </div>
       </Fragment>

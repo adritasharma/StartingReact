@@ -1,7 +1,6 @@
 .App, body {
   font-family: monospace !important;
   font-style: italic;
-
 }
 
 .App-logo {
@@ -30,7 +29,7 @@
   color: #61dafb;
 }
 
-.container-fluid{
+.container-fluid {
   margin-top: 4rem;
 }
 
@@ -38,11 +37,35 @@
   background-color: #dc838b!important;
 }
 
-.seperator{
+.seperator {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.banner img{
+  height: 800px;
 
+  /* height: 1000px; */
+}
+
+.banner-bg {
+  /* Full height */
+  height: 800px;
+  /* Center and scale the image nicely */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.save-the-date-banner {
+  /* margin-top: 550px; */
+  margin-top: -220px;
+  font-weight: bold;
+  color: #eadace;
+  font-size: 60px;
+  font-style: normal;
+  text-shadow: 2px 2px #7b2323;
+  font-family: auto;
+}
 
 @keyframes App-logo-spin {
   from {

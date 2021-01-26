@@ -10,11 +10,13 @@ export class Bridegroom extends Component {
         id: 1,
         name: "Ankita Sarkar",
         socialMedia: { fb: "https://www.facebook.com/adrita.sharma.5", insta: "", linkedIn: "" },
+        imagename:"ankita.jpg"
       },
       {
         id: 2,
         name: "Krishanu Dey",
         socialMedia: { fb: "", insta: "", linkedIn: "" },
+        imagename:"krishanu.jpg"
       },
     ];
     return (
@@ -31,13 +33,13 @@ export class Bridegroom extends Component {
                     <Bridegroomdescription key={item.id} name={item.name} socialMedia={item.socialMedia}/>
                   </div>
                   <div className="col-4">
-                    <Bridegroompicture />
+                    <Bridegroompicture imagename={item.imagename}/>
                   </div>
                 </Fragment>
               ) : (
                 <Fragment>
                   <div className="col-4">
-                    <Bridegroompicture />
+                    <Bridegroompicture imagename={item.imagename}/>
                   </div>
                   <div className="col-8 text-left">
                     <Bridegroomdescription key={item.id} name={item.name} socialMedia={item.socialMedia}/>
