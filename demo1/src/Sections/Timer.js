@@ -34,7 +34,6 @@ export class Timer extends Component {
 
     return (
       <Fragment>
-        <section>
           {/* <div id="clockdiv">
             <div className="time">
               <span className="days">{t.days}</span>
@@ -93,7 +92,7 @@ export class Timer extends Component {
             </div>
           </div> */}
           <div className="row">
-            <div className="col-7 mx-auto">
+            <div className="col-lg-7 col-md-11 col-sm-12 mx-auto">
               <div className="d-flex justify-content-around  mb-3">
                 <div className="p-3 time ">
                   <span className="days">{t.days}</span>
@@ -139,7 +138,6 @@ export class Timer extends Component {
               </div>
             </div>
           </div>
-        </section>
       </Fragment>
     );
   }

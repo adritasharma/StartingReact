@@ -1,10 +1,12 @@
 .App, body {
   font-family: monospace !important;
   font-style: italic;
-
 }
 
-.App-logo {
+/* #root {
+  width: 100%;
+} */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -13,8 +15,8 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
+} */
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,9 +30,9 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-.container-fluid{
+.container-fluid {
   margin-top: 4rem;
 }
 
@@ -38,10 +40,51 @@
   background-color: #dc838b!important;
 }
 
-.seperator{
+.seperator {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+/* .banner img{
+  height: 600px;
+} */
+
+@media only screen and (min-width:3000px) and (max-width:4000px){
+  .banner{
+    background: khaki;
+  }
+	.banner img{
+    height: 1000px;
+	}
+}
+
+@media only screen and (min-width:1024px) and (max-width:3000px){
+  .banner{
+    background: salmon;
+  }
+	.banner img{
+    height: 700px;
+	}
+}
+
+
+@media only screen and (min-width:464px) and (max-width:1024px){
+  .banner{
+    background: greenyellow;
+  }
+	.banner img{
+    height: 400px;
+	}
+}
+
+@media only screen and (min-width:0px) and (max-width:464px){
+  .banner{
+    background: red;
+  }
+	.banner img{
+    height: 400px;
+	}
+}
+
 
 .slick-arrow , .slick-prev:focus, .slick-prev:hover,.slick-next:focus, .slick-next:hover{
   background: red;
@@ -51,6 +94,25 @@
 }
 .slick-prev {
   left: 0;
+}
+.banner-bg {
+  /* Full height */
+  height: 800px;
+  /* Center and scale the image nicely */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.save-the-date-banner {
+  /* margin-top: 550px; */
+  margin-top: -220px;
+  font-weight: bold;
+  color: #eadace;
+  font-size: 60px;
+  font-style: normal;
+  text-shadow: 2px 2px #7b2323;
+  font-family: auto;
 }
 
 @keyframes App-logo-spin {

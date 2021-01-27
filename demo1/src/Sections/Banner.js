@@ -7,14 +7,27 @@ export class Banner extends Component {
       <Fragment>
         <section className="banner">
           <div className="row">
-            <div className="col-5">
-              <img src="https://picsum.photos/400"></img>
+            {/* <div className="col-12 banner-bg" style={{ background: 'url(' + process.env.PUBLIC_URL + "images/banner.jpg" + ')' }}>
+              <div className="save-the-date-banner">
+                Save the date
+                <p>28/06/2021</p>
+              </div>
+            </div> */}
+            <div className="col-4">
+              <img src={process.env.PUBLIC_URL + "images/banner2.jpg"} />
+              <div className="save-the-date-banner">
+
+              </div>
             </div>
-            <div className="col-2">
-              <img src={process.env.PUBLIC_URL + "/save_the_date.jpg"}  />
+            <div className="col-4">
+              <img src={process.env.PUBLIC_URL + "images/banner1.jpg"} />
             </div>
-            <div className="col-5">
-              <img src="https://picsum.photos/400"></img>
+            <div className="col-4">
+              <img src={process.env.PUBLIC_URL + "images/banner3.jpg"} />
+            </div>
+            <div className="col-12 text-center save-the-date-banner">
+                Save the date
+                <p>28/06/2021</p>
             </div>
           </div>
         </section>

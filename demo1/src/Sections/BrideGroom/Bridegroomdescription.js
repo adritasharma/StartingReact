@@ -16,7 +16,7 @@ export class Bridegroomdescription extends Component {
               large language ocean.
             </p>
           </div>
-          <div className="col-4 mx-auto">
+          <div className="col-lg-4 col-md-8 mx-auto">
             <Bridegroomsocialmedia socialMedia={this.props.socialMedia} />
           </div>
         </div>
