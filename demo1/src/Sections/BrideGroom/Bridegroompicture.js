@@ -8,7 +8,7 @@ export class Bridegroompicture extends Component {
         <div className="row">
           <div className="col-11 mx-auto">
             <img
-              src={process.env.PUBLIC_URL + "images/" + this.props.imagename }
+              src={process.env.PUBLIC_URL + "/images/" + this.props.imagename }
               className="bridegroom-image"
             ></img>
             
